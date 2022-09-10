@@ -1,0 +1,240 @@
+body{
+    display:block;
+    position: absolute;
+    margin: 0% !important;
+    background-color: whitesmoke;
+   }
+    .div_1{
+       width: 100%;
+       display: flex;
+       position: absolute;
+       padding-top: 1%;
+     }
+     .div_1a{
+        margin-left: 20%;
+     }
+     .div_1b,.div_1c, .div_1d, .div_1e, .div_1f {
+        margin-left: 20px;
+     }
+
+    .div2{
+      display: flex;
+      margin-left: 20%;
+      padding-top: 105px;
+        
+    }
+    .img{
+      height: 70px;
+      width: 70px;
+      margin: -18% 0% 0% 10%;
+      border-radius: 10px;
+    }
+    .div2_a, .div2_b, .div2_c, .div2_d{
+      margin-left: 30px;
+      width: 220px;
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 10px;
+      padding-top: 20px;
+     
+
+    }
+    .hhh{
+      text-align: center;
+      font-weight: 100;
+      margin: 0px 10px 0px 10px;
+    }
+    .bottom{
+         display: flex;
+         margin-left: 5%;
+       }
+    .bott_2{
+      margin-left: 45%;
+    }
+
+
+
+    .text_1{
+      float: right;
+      margin: -19% 9% 0% 0%;
+      position: relative;
+      display: flex;
+      
+      
+    }
+    .text_2{
+      float: right;
+      margin: -11% 9% 0% 0%;
+     
+     
+    }
+
+    .pp{
+      text-align: left;
+      margin-left: 10px;
+    }
+    .div_3{
+      display: flex;
+      margin: 5% 9% 6% 22%;
+      border-radius: 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      width: 1000px;
+      height: 435px;
+    }
+   .div3_a{
+      margin: -2% -3% 2% 1%;
+   }
+   .div3_b{
+      margin: 7% 3% 3% 0%;
+  }
+  .div3_c{
+      margin: 10% 2% 5% 10%;
+  }
+
+  table, th, td {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
+  .divv{
+    height:300px ;
+  }
+       
+       .div_4 {
+        display: flex;
+        margin-left: 18%;
+        width: 80%;
+        border-radius: 15px;
+       }
+       
+      .div4_a, .div4_b, .div4_c{
+         margin-left: 2%;
+         height: 60%;
+         width: 30%;
+         border-radius: 5px;
+         padding: 10px;
+         background-color: white;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .aaa, .aaa1{
+        margin: 10px 0px 0px 30px;
+        font-weight: 100;
+       
+      } 
+
+       #myChart1{
+        background-color: rgb(0, 229, 255);
+         margin: -10% 0% 0% 10%;
+          border-radius: 5px;
+       }
+       #myChart{
+        background-color: orange;
+        margin: -10% 0% 0% 10%;
+         border-radius: 5px;
+      }
+      #myChart3{
+        background-color: rgb(255, 8, 0);
+        margin: -10% 0% 0% 10%;
+         border-radius: 5px;
+      }
+      .div_5{
+        position: relative;
+        display: flex;
+        margin: 5% 0% 0% 18%;
+       
+      }
+      .div5_a, .div5_b, .div5_c{
+         margin-left: 2%;
+         height: 50%;
+         width: 30%;
+         background-color:white ;
+         border-radius: 10px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         height: 500%;
+      }
+      .imgg{
+        height:40%;
+        width:80%;
+        margin: -10% 0% 0% 10%;
+        border-radius: 10px;
+      }
+      #myChart3:hover, #myChart:hover, #myChart1:hover, .imgg:hover {
+        margin-top: -50px;
+        
+        
+      }
+    .div_6{
+        position: absolute;
+        display: flex;
+        margin-left: 19%;
+        margin-top: 10px;
+    
+    }
+    .div_6:hover{
+      cursor: pointer;
+    }
+
+    .last:hover{
+      cursor: text;
+    }
+    
+
+     /* for side nav */
+
+
+     .side_main{
+      background-image: url(senry.jpg);
+      position: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 17%;
+      text-align: center;
+     }
+
+     .sidenav{
+      position: fixed;
+      color: whitesmoke;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8); 
+      height: 100%;
+      width: 17%;
+     
+     }
+ 
+  
+    .sidenav a, .dropdown-btn {
+      padding: 6px 8px 6px 15px;
+      text-decoration: none;
+      font-size: 20px;
+      color: whitesmoke;
+      display: block;
+      border: none;
+      background: none;
+      width: 90%;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      padding:5%;
+     
+    }
+    
+    .sidenav a:hover, .dropdown-btn:hover {
+      background: rgba(123, 120, 120, 0.485);
+    }
+    
+    
+    .dropdown-container {
+      display: none;
+      padding-left: 5px;
+    }
+    
+   
+    .fa-caret-down {
+      float: right;
+      padding-right: 5px;
+    }
+    
